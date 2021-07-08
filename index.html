@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جدول الضرب</title>
+    <style>
+        body {
+            background-image: url("images/bg.jpg");
+            background-size: 100% 100vh;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0 5%;
+            text-align: center;
+            direction: rtl;
+        }
+        input {
+            width: 200px;
+            padding: 20px 10px;
+            border-radius: 10px;
+            font-size: 1.6rem;
+            margin-top: 200px;
+        }
+        input:focus{
+            outline: none;
+        }
+        button{
+            font-size: 2rem;
+            width: 400px;
+            padding: 10px 0;
+            margin-top: 50px;
+            border-radius: 10px;
+            background: linear-gradient(45deg, rgb(62, 62, 185),#2468ff);
+            color: #fff;
+            display: inline-block;
+        }
+        button:hover{
+            cursor: pointer;
+        }
+        button:focus {
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <form action="/" method="POST">
+        <input name="name" type="text" placeholder="أدخل اسمك"> <br>
+        <button type="submit">ابدأ</button>
+    </form>
+</body>
+<script src="javascript/index.js"></script>
+</html>

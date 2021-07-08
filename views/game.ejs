@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8">
+    <title>جدول الضرب</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <h1>اهلا يا  <span name="welcome"><%=name%></span></h1>
+    <p class="title">حاصل ضرب <span dir="ltr" class="process"><%=problem%></span></p>
+    <form action="/game" method="POST">
+      <input name="userResult" type="number" min="0"><br>
+      <button class="confirm" type="submit" name="button">تأكيد</button><br>
+    </form>
+    <p class="result"><%=result%></p>
+    <p class="score">نقطك: <%=points%></p>
+  <script src="javascript/index.js" charset="utf-8"></script>
+  </body>
+</html>
